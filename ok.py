@@ -40,7 +40,7 @@ def main(url, run_time, num_threads):
             print(response)
         except Exception as e:
             print(str(e))
-        time.sleep(0.001)
+        # time.sleep(0.001)
     threads_finished += 1
 
 if __name__ == '__main__':
